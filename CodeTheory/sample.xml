@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Code Theory">
+	<test name="Sweety App">
+	<parameter name="email" value="seemae702gmail.com"/>
+	<parameter name="password" value="codetheoryio"/>
+	<parameter name="email" value="seemae702gmail.com"/>
+	<parameter name="password" value="codetheoryio"/>
+	<parameter name="date" value="7/4/2016"/>
+	<parameter name="time" value="15:01"/>
+	<parameter name="level" value="120"/>
+	<parameter name="timePeriod_dailyReport" value="2016-07-07"/>
+	<parameter name="timePeriod_monthlyReport" value="2016-Jul"/>
+	
+	<classes>
+	<class name="Tests.Sweety">
+		
+		</class>
+		</classes>
+	</test>
+</suite>
