@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="date" value="7/3/2016"/>
+  <parameter name="date" value="7/9/2016"/>
   <parameter name="password" value="codetheoryio"/>
   <parameter name="timePeriod_monthlyReport" value="2016-Jul"/>
-  <parameter name="level" value="120"/>
+  <parameter name="level" value="140,45"/>
   <parameter name="time" value="15:01"/>
   <parameter name="timePeriod_dailyReport" value="2016-07-07"/>
   <parameter name="email" value="seemae702@gmail.com"/>
@@ -15,8 +15,9 @@
           <include name="afterTest"/>
           <include name="viewMonthlyReports" invocation-numbers="0"/>
           <include name="validateLevelEntries" invocation-numbers="0"/>
+          <include name="loginPositive"/>
+          <include name="viewDailyReports" invocation-numbers="0"/>
           <include name="beforeTest"/>
-          <include name="addLevelEntry" invocation-numbers="0"/>
         </methods>
       </class> <!-- Tests.Sweety -->
     </classes>

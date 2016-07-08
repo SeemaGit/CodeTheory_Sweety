@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Code_Theory">
-              <span class="suite-name border-failed">Code Theory</span>
+              <span class="suite-name border-passed">Code Theory</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Code_Theory">
-                    <span>E:\Eclipse\Workspace\CodeTheory\sample.xml</span>
+                    <span>E:\Eclipse\Workspace\CodeTheory\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Code_Theory" class="hide-methods failed suite-Code_Theory"> (hide)</a> <!-- hide-methods failed suite-Code_Theory -->
-                      <a href="#" panel-name="suite-Code_Theory" class="show-methods failed suite-Code_Theory"> (show)</a> <!-- show-methods failed suite-Code_Theory -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Code_Theory" class="hide-methods passed suite-Code_Theory"> (hide)</a> <!-- hide-methods passed suite-Code_Theory -->
+                      <a href="#" panel-name="suite-Code_Theory" class="show-methods passed suite-Code_Theory"> (show)</a> <!-- show-methods passed suite-Code_Theory -->
                     </span>
-                    <div class="method-list-content failed suite-Code_Theory">
+                    <div class="method-list-content passed suite-Code_Theory">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="loginTest(seemae702gmail.com, codetheoryio)">loginTest(seemae702gmail.com, codetheoryio)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="addLevelEntryPositive(7/9/2016, 15:01, 140,45)">addLevelEntryPositive(7/9/2016, 15:01, 140,45)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Code_Theory -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="deleteLevelEntry(7/9/2016, 15:01, 140,45)">deleteLevelEntry(7/9/2016, 15:01, 140,45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="loginPositive(seemae702@gmail.com, codetheoryio)">loginPositive(seemae702@gmail.com, codetheoryio)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="validateLevelEntries(7/9/2016, 15:01, 140,45)">validateLevelEntries(7/9/2016, 15:01, 140,45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="viewDailyReports(2016-07-07)">viewDailyReports(2016-07-07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Code_Theory" title="Tests.Sweety" hash-for-method="viewMonthlyReports(2016-Jul)">viewMonthlyReports(2016-Jul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Code_Theory -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,30 +141,66 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Code_Theory" class="panel Code_Theory">
-          <div class="suite-Code_Theory-class-failed">
+          <div class="suite-Code_Theory-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Tests.Sweety</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(seemae702gmail.com, codetheoryio)">
-                  </a> <!-- loginTest(seemae702gmail.com, codetheoryio) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(seemae702gmail.com, codetheoryio)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Invalid email or password. expected [Signed in successfully.] but found [Invalid email or password.]
-	at Tests.Sweety.loginTest(Sweety.java:65)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
+                  <a name="addLevelEntryPositive(7/9/2016, 15:01, 140,45)">
+                  </a> <!-- addLevelEntryPositive(7/9/2016, 15:01, 140,45) -->
+                  <span class="method-name">addLevelEntryPositive</span>
+                  <span class="parameters">(7/9/2016, 15:01, 140,45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLevelEntry(7/9/2016, 15:01, 140,45)">
+                  </a> <!-- deleteLevelEntry(7/9/2016, 15:01, 140,45) -->
+                  <span class="method-name">deleteLevelEntry</span>
+                  <span class="parameters">(7/9/2016, 15:01, 140,45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPositive(seemae702@gmail.com, codetheoryio)">
+                  </a> <!-- loginPositive(seemae702@gmail.com, codetheoryio) -->
+                  <span class="method-name">loginPositive</span>
+                  <span class="parameters">(seemae702@gmail.com, codetheoryio)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLevelEntries(7/9/2016, 15:01, 140,45)">
+                  </a> <!-- validateLevelEntries(7/9/2016, 15:01, 140,45) -->
+                  <span class="method-name">validateLevelEntries</span>
+                  <span class="parameters">(7/9/2016, 15:01, 140,45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewDailyReports(2016-07-07)">
+                  </a> <!-- viewDailyReports(2016-07-07) -->
+                  <span class="method-name">viewDailyReports</span>
+                  <span class="parameters">(2016-07-07)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewMonthlyReports(2016-Jul)">
+                  </a> <!-- viewMonthlyReports(2016-Jul) -->
+                  <span class="method-name">viewMonthlyReports</span>
+                  <span class="parameters">(2016-Jul)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Code_Theory-class-failed -->
+          </div> <!-- suite-Code_Theory-class-passed -->
         </div> <!-- panel Code_Theory -->
         <div panel-name="test-xml-Code_Theory" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Eclipse\Workspace\CodeTheory\sample.xml</span>
+            <span class="header-content">E:\Eclipse\Workspace\CodeTheory\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,15 +208,24 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Code Theory&quot;&gt;
   &lt;test name=&quot;Sweety App&quot;&gt;
-    &lt;parameter name=&quot;date&quot; value=&quot;7/4/2016&quot;/&gt;
+    &lt;parameter name=&quot;date&quot; value=&quot;7/9/2016&quot;/&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;codetheoryio&quot;/&gt;
     &lt;parameter name=&quot;timePeriod_monthlyReport&quot; value=&quot;2016-Jul&quot;/&gt;
-    &lt;parameter name=&quot;level&quot; value=&quot;120&quot;/&gt;
+    &lt;parameter name=&quot;level&quot; value=&quot;140,45&quot;/&gt;
     &lt;parameter name=&quot;time&quot; value=&quot;15:01&quot;/&gt;
     &lt;parameter name=&quot;timePeriod_dailyReport&quot; value=&quot;2016-07-07&quot;/&gt;
-    &lt;parameter name=&quot;email&quot; value=&quot;seemae702gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;seemae702@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Tests.Sweety&quot;/&gt;
+      &lt;class name=&quot;Tests.Sweety&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginPositive&quot;/&gt;
+          &lt;include name=&quot;addLevelEntryPositive&quot;/&gt;
+          &lt;include name=&quot;validateLevelEntries&quot;/&gt;
+          &lt;include name=&quot;viewDailyReports&quot;/&gt;
+          &lt;include name=&quot;viewMonthlyReports&quot;/&gt;
+          &lt;include name=&quot;deleteLevelEntry&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Tests.Sweety --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Sweety App --&gt;
 &lt;/suite&gt; &lt;!-- Code Theory --&gt;
@@ -195,16 +265,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
+data.setCell(0, 1, 'addLevelEntryPositive')
 data.setCell(0, 2, 'Tests.Sweety')
-data.setCell(0, 3, 5186);
+data.setCell(0, 3, 2848);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPositive')
+data.setCell(1, 2, 'Tests.Sweety')
+data.setCell(1, 3, 2413);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'viewDailyReports')
+data.setCell(2, 2, 'Tests.Sweety')
+data.setCell(2, 3, 2030);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteLevelEntry')
+data.setCell(3, 2, 'Tests.Sweety')
+data.setCell(3, 3, 1103);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'viewMonthlyReports')
+data.setCell(4, 2, 'Tests.Sweety')
+data.setCell(4, 3, 1011);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateLevelEntries')
+data.setCell(5, 2, 'Tests.Sweety')
+data.setCell(5, 3, 654);
 window.suiteTableData['Code_Theory']= { tableData: data, tableDiv: 'times-div-Code_Theory'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Code_Theory">
               </div> <!-- times-div-Code_Theory -->
             </div> <!-- times-div -->
@@ -219,9 +309,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Code_Theory" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.Sweety</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addLevelEntryNegative</span>
+                <br/>
+                <span class="ignored-method-name">loginNegative</span>
+                <br/>
+                <span class="ignored-method-name">defaultSelectedDateTime</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Code_Theory" class="panel">
@@ -236,14 +337,32 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginTest(seemae702gmail.com, codetheoryio)</span>
-                <span class="method-start">12114 ms</span>
+                <span class="method-name">loginPositive(seemae702@gmail.com, codetheoryio)</span>
+                <span class="method-start">25291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addLevelEntryPositive(7/9/2016, 15:01, 140,45)</span>
+                <span class="method-start">27745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLevelEntries(7/9/2016, 15:01, 140,45)</span>
+                <span class="method-start">30610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewDailyReports(2016-07-07)</span>
+                <span class="method-start">31264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewMonthlyReports(2016-Jul)</span>
+                <span class="method-start">33294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteLevelEntry(7/9/2016, 15:01, 140,45)</span>
+                <span class="method-start">34305 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">17307 ms</span>
+                <span class="method-start">35408 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

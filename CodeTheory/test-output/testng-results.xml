@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Code Theory" duration-ms="18801" started-at="2016-07-08T04:20:51Z" finished-at="2016-07-08T04:21:09Z">
+  <suite name="Code Theory" duration-ms="35439" started-at="2016-07-08T18:45:57Z" finished-at="2016-07-08T18:46:32Z">
     <groups>
     </groups>
-    <test name="Sweety App" duration-ms="18801" started-at="2016-07-08T04:20:51Z" finished-at="2016-07-08T04:21:09Z">
+    <test name="Sweety App" duration-ms="35439" started-at="2016-07-08T18:45:57Z" finished-at="2016-07-08T18:46:32Z">
       <class name="Tests.Sweety">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.Sweety@dca536]" name="beforeTest" is-config="true" duration-ms="12100" started-at="2016-07-08T09:50:51Z" finished-at="2016-07-08T09:51:03Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Tests.Sweety@1f03bb1]" name="beforeTest" is-config="true" duration-ms="25258" started-at="2016-07-09T00:15:57Z" finished-at="2016-07-09T00:16:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:Tests.Sweety@dca536]" name="loginTest" duration-ms="5186" started-at="2016-07-08T09:51:03Z" finished-at="2016-07-08T09:51:08Z">
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="loginPositive" duration-ms="2413" started-at="2016-07-09T00:16:22Z" finished-at="2016-07-09T00:16:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[seemae702gmail.com]]>
+                <![CDATA[seemae702@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -24,48 +24,95 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid email or password. expected [Signed in successfully.] but found [Invalid email or password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid email or password. expected [Signed in successfully.] but found [Invalid email or password.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at Tests.Sweety.loginTest(Sweety.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.Sweety@dca536]" name="afterTest" is-config="true" duration-ms="1494" started-at="2016-07-08T09:51:08Z" finished-at="2016-07-08T09:51:09Z">
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="addLevelEntryPositive(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="addLevelEntryPositive" duration-ms="2848" started-at="2016-07-09T00:16:25Z" finished-at="2016-07-09T00:16:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7/9/2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15:01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[140,45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLevelEntryPositive -->
+        <test-method status="PASS" signature="validateLevelEntries(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="validateLevelEntries" duration-ms="654" started-at="2016-07-09T00:16:27Z" finished-at="2016-07-09T00:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7/9/2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15:01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[140,45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLevelEntries -->
+        <test-method status="PASS" signature="viewDailyReports(java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="viewDailyReports" duration-ms="2030" started-at="2016-07-09T00:16:28Z" finished-at="2016-07-09T00:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016-07-07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewDailyReports -->
+        <test-method status="PASS" signature="viewMonthlyReports(java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="viewMonthlyReports" duration-ms="1011" started-at="2016-07-09T00:16:30Z" finished-at="2016-07-09T00:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016-Jul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewMonthlyReports -->
+        <test-method status="PASS" signature="deleteLevelEntry(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.Sweety@1f03bb1]" name="deleteLevelEntry" duration-ms="1103" started-at="2016-07-09T00:16:31Z" finished-at="2016-07-09T00:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7/9/2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15:01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[140,45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLevelEntry -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tests.Sweety@1f03bb1]" name="afterTest" is-config="true" duration-ms="15" started-at="2016-07-09T00:16:32Z" finished-at="2016-07-09T00:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
